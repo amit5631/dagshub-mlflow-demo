@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/700071204687335828/2d242b99199c43acb2fe2b8286c2d952/artifacts
+end_time: 1748943439686
+entry_point_name: ''
+experiment_id: '700071204687335828'
+lifecycle_stage: active
+run_id: 2d242b99199c43acb2fe2b8286c2d952
+run_name: valuable-gull-904
+run_uuid: 2d242b99199c43acb2fe2b8286c2d952
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748943432434
+status: 3
+tags: []
+user_id: Amit

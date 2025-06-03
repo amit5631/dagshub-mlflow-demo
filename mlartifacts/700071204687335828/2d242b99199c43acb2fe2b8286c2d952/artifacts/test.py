@@ -7,14 +7,9 @@ from sklearn.metrics import accuracy_score, confusion_matrix
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-#mlflow.autolog() #this automatically logs the model, metrics, parameters, etc. without using mlflow.log_metric, mlflow.log_param, mlflow.log_artifact, mlflow.log_input, mlflow.log_output, mlflow.log_model, mlflow.set_tag, mlflow.set_experiment, mlflow.start_run, mlflow.end_run
+# mlflow code
+mlflow.set_tracking_uri("http://127.0.0.1:5000/")
 
-import dagshub
-dagshub.init(repo_owner='amit5631', repo_name='dagshub-mlflow-demo', mlflow=True)
-
-mlflow.set_tracking_uri("https://dagshub.com/amit5631/dagshub-mlflow-demo.mlflow")
-
-#mlflow.set_tracking_uri("http://127.0.0.1:5000/")
 
 # Load the iris dataset
 iris = load_iris()

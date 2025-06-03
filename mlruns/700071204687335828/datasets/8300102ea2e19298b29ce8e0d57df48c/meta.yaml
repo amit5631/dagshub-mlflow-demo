@@ -1,0 +1,11 @@
+digest: 695253db
+name: dataset
+profile: '{"num_rows": 30, "num_elements": 150}'
+schema: '{"mlflow_colspec": [{"type": "double", "name": "sepal length (cm)", "required":
+  true}, {"type": "double", "name": "sepal width (cm)", "required": true}, {"type":
+  "double", "name": "petal length (cm)", "required": true}, {"type": "double", "name":
+  "petal width (cm)", "required": true}, {"type": "long", "name": "variety", "required":
+  true}]}'
+source: '{"tags": {"mlflow.user": "Amit", "mlflow.source.name": ".\\test.py", "mlflow.source.type":
+  "LOCAL", "mlflow.source.git.commit": "64f34be5deb79a7116ae7d9c2f0b2aa786885bcc"}}'
+source_type: code
