@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/700071204687335828/ebc48118f4a0474fbc1432e4b41b3712/artifacts
+end_time: 1748865539753
+entry_point_name: ''
+experiment_id: '700071204687335828'
+lifecycle_stage: active
+run_id: ebc48118f4a0474fbc1432e4b41b3712
+run_name: burly-horse-161
+run_uuid: ebc48118f4a0474fbc1432e4b41b3712
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748865539022
+status: 3
+tags: []
+user_id: Amit
